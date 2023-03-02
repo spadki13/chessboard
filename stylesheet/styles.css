@@ -1,16 +1,35 @@
 * {
     font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.square {
+    width: 90px;
+    height: 90px;
+}
+
+.light {
+background-color: rgb(178, 178, 178);
+}
+
+.dark {
+    background-color: rgb(77, 76, 76)
+}
+
+.button {
+    width: 790px;
+    justify-content: center;
+    display: inline-flex;
+    padding-top: 5%;
+
+    
+}
+
+.light:hover {
+    filter: brightness(.90);
 
 }
 
-.chessboard .light {
-    background-color: rgb(178, 178, 178);
-    width: 80px;
-    height: 80px;
-}
-
-.chessboard .dark {
-    background-color: rgb(77, 76, 76);
-    width: 80px;
-    height: 80px;
+.dark:hover {
+    opacity: 90%;
 }

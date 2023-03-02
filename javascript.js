@@ -50,4 +50,8 @@ function chooseYCoordinates(){
 
 let y = chooseYCoordinates();
 
-console.log(x + y)
+let randomSquare = (x + y);
+
+console.log(randomSquare);
+
+
