@@ -1,0 +1,16 @@
+* {
+    font-size: 26px;
+
+}
+
+.chessboard .light {
+    background-color: rgb(178, 178, 178);
+    width: 80px;
+    height: 80px;
+}
+
+.chessboard .dark {
+    background-color: rgb(77, 76, 76);
+    width: 80px;
+    height: 80px;
+}
